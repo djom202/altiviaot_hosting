@@ -1,0 +1,1 @@
+<?php echo dirname(__FILE__); header('location: home'); ?>
