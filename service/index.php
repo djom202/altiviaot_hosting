@@ -1,4 +1,7 @@
-<?php if (file_exists("../modulos/header.php")){ include('../modulos/header.php'); } ?>
+<?php
+	include('../clases/seguridad.php');
+	if (file_exists("../modulos/header.php")){ include('../modulos/header.php'); }
+?>
 <div id="slogan" class="row-fluid">
 		<article>
 			<header>your domain name <span>helps the world to find you</span></header>

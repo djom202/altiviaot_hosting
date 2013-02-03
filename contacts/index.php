@@ -1,4 +1,7 @@
-<?php if (file_exists("../modulos/header.php")){ include('../modulos/header.php'); } ?>
+<?php
+	include('../clases/seguridad.php');
+	if (file_exists("../modulos/header.php")){ include('../modulos/header.php'); }
+?>
 <div id="slogan" class="row-fluid">
 		<article>
 			<header>your domain name <span>helps the world to find you</span></header>
@@ -20,15 +23,15 @@
 	</div>
 </div>
 <div id="contacts" class="row-fluid">
-	<div class="span4">
+	<div class="offset2 span3">
 		<h3>Postal Address</h3>
 		<label><strong>Zip Code:</strong> 08001000</label>
 		<label><strong>Country:</strong> Barranquilla</label>
 		<label><strong>Telephone:</strong> (+57) 301-444-2072</label>
 		<label><strong>Email:</strong> <a href="mailto:info@altiviaot.com">info@altiviaot.com</a></label>
 	</div>
-	<div class="span8">
-		<h3>Contact Form</h3>
+	<div class="span6">
+		<h3 class="offset1">Contact Form</h3>
 		<form action="" class="form-horizontal">
 			<div class="control-group">
 				<label class="control-label">Your name:</label>

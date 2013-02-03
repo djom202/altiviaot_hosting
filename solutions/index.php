@@ -1,7 +1,13 @@
-<?php if (file_exists("../modulos/header.php")){ include('../modulos/header.php'); } ?>
+<?php
+	include('../clases/seguridad.php');
+	if (file_exists("../modulos/header.php")){ include('../modulos/header.php'); }
+?>
 <div id="slide" class="row-fluid">
-	<div class="span3">
-		<div class="selector row-fluid">Web Hosting<br>
+	<div class="span9" style="float: right;">
+		<img src="../themes/images/slider-bg.jpg" alt="" style="height: 23.7em;margin-left: -2%;max-width: 102%!important;">
+	</div>
+	<div class="span3" style="float: left;margin-left: 1%;">
+		<div class="selector current row-fluid">Web Hosting<br>
 			<span>Get more information</span>
 		</div>
 		<div class="selector row-fluid">Broadband<br>
@@ -14,13 +20,10 @@
 			<span>Get more information</span>
 		</div>
 	</div>
-	<div class="span9">
-		<img src="../themes/images/slider-bg.jpg" alt="" style="height: 24em;">
-	</div>
 </div>
 <div id="planes" class="row-fluid">
 	<div class="plan span3">
-		<header>Plan Basico</header>
+		<header><span>Plan Basico</span></header>
 		<ul>
 			<li>Disk space<span>50GB</span></li>
 			<li>Monthly transfer<span>1000GB</span></li>
@@ -32,7 +35,7 @@
 		<input type="button" value="Learn More" class="btn btn-inverse">
 	</div>
 	<div class="plan span3">
-		<header>Plan Economico</header>
+		<header><span>Plan Economico</span></header>
 		<ul>
 			<li>Disk space<span>50GB</span></li>
 			<li>Monthly transfer<span>1000GB</span></li>
@@ -44,7 +47,7 @@
 		<input type="button" value="Learn More" class="btn btn-inverse">
 	</div>
 	<div class="plan span3">
-		<header>Plan Delujo</header>
+		<header><span>Plan Delujo</span></header>
 		<ul>
 			<li>Disk space<span>50GB</span></li>
 			<li>Monthly transfer<span>1000GB</span></li>
@@ -56,7 +59,7 @@
 		<input type="button" value="Learn More" class="btn btn-inverse">
 	</div>
 	<div class="plan span3">
-		<header>Plan Ilimitado</header>
+		<header><span>Plan Ilimitado</span></header>
 		<ul>
 			<li>Disk space<span>50GB</span></li>
 			<li>Monthly transfer<span>1000GB</span></li>

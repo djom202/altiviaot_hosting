@@ -57,6 +57,7 @@ a, a:hover, a:visited{
 }
 #login{
     margin-top: 2%;
+    text-align: right;
 }
 #logo img{
     float: left;
@@ -133,7 +134,7 @@ a, a:hover, a:visited{
 #footer{
     background: url('../images/aside-tail.gif') repeat-x left top #131313;
     margin-left: -16%;
-    margin-top: 2%;
+    margin-top: 3%;
     padding-bottom: 1%;
     padding-right: 10%;
     width: 91em;
@@ -144,7 +145,8 @@ a, a:hover, a:visited{
     margin-top: 10%;
 }
 footer{
-    margin-bottom: 2%;
+    color: #fff;
+    margin-bottom: 0%;
     margin-top: 2%;
     text-align: center;
 }
@@ -224,4 +226,7 @@ table .margen{
 }
 li.current a{
     color:#EB8A1D !important;
+}
+#contacts{
+    margin-top: 5%;
 }
