@@ -57,7 +57,7 @@
 				</div>
 			</div>
 			<footer class="row-fluid">
-				<p>All rights reserved by <strong>Altivia<span>OT</span> © 2012.</strong> Copyright @ 2012.
+				<p>All rights reserved by <strong>Altivia<span>OT</span> © 2012.</strong>
 				<br>Visit our <a href="http://blog.altiviaot.com"><strong>blog</strong></a>.</p>
 			</footer>
 		</div>

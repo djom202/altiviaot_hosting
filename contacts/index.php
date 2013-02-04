@@ -9,18 +9,15 @@
 		</article>
 </div>
 <div id="infoplanes" class="row-fluid">
-	<div class="plans span3">
-		<header><span>Basico</span><br>$50.000 col</header>
-	</div>
-	<div class="plans span3">
-		<header><span>Economico</span><br>$50.000 col</header>
-	</div>
-	<div class="plans span3">
-		<header><span>Delujo</span><br>$50.000 col</header>
-	</div>
-	<div class="plans span3">
-		<header><span>Ilimitado</span><br>$50.000 col</header>
-	</div>
+<?php
+	$sql='SELECT `nombre`,`precio` FROM `planes` WHERE `estado` = 1';
+	include('../clases/sql.php');
+	if (mysql_affected_rows() > 0) {
+		while($row=mysql_fetch_array($result)){
+			echo '<div class="plans span3"><header><span>Plan '.$row['nombre'].'</span><br>'.$row['precio'].' Col</header></div>';
+		}
+	}
+?>
 </div>
 <div id="contacts" class="row-fluid">
 	<div class="offset2 span3">
@@ -36,13 +33,13 @@
 			<div class="control-group">
 				<label class="control-label">Your name:</label>
 				<div class="controls">
-					<input type="text" name="" id="">
+					<input type="text" name="" required="required">
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label">Your E-mail:</label>
 				<div class="controls">
-					<input type="text" name="" id="">
+					<input type="text" name="" required="required">
 				</div>
 			</div>
 			<div class="control-group">

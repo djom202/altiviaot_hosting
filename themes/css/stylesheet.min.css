@@ -4,9 +4,9 @@
 #menu{background-image:url('../images/aside-tail.gif');border-radius:5px}#nav{color:#FFF;float:right;font-size:1.3em;list-style:none;margin-top:1.7%;text-transform:uppercase;width:31em;height:2.7em}
 #nav li{background:url('../images/divider.gif') repeat-y left top;float:left;padding:2%;text-decoration:none!important}#login{margin-top:2%;text-align:right}
 #logo img{float:left;margin-left:5%;margin-top:1.4%;padding-bottom:1%;width:15%}#slide,#slogan,#infoplanes,#planes,#overview,#listaplanes{margin-top:2%}
-.selector{background-color:#fff;border-radius:5px;font-size:1.5em;margin-bottom:2.5%;margin-left:-4%;padding-bottom:8%;padding-top:8%;text-align:center;text-transform:uppercase}
+.selector{background-color:#fff;border-radius:5px;box-shadow:inset 1px 0 34px rgba(0,0,0,0.5);font-size:1.5em;margin-bottom:2.5%;margin-left:-4%;padding-bottom:8%;padding-top:8%;text-align:center;text-transform:uppercase}
 .selector span{background-image:url('../images/arrows.gif');background-position:95% -5%;background-repeat:no-repeat;color:#f89c0b;font-size:.5em!important;padding-right:8%;text-transform:none}
-.plan{background-color:#fff;border-radius:5px}.plan>header,.plans>header{background-color:#f89c0b;border-radius:5px 5px 0 0;font-size:1.3em;padding:8% 0;text-align:center;text-transform:uppercase}
+.plan{background-color:#fff;border-radius:5px;box-shadow:5px 5px 5px #888}.plan>header,.plans>header{background-color:#f89c0b;border-radius:5px 5px 0 0;font-size:1.3em;padding:8% 0;text-align:center;text-transform:uppercase}
 .plans>header{border-radius:5px 5px 5px 5px;box-shadow:5px 5px 5px #888}.plan>ul{list-style:none;margin-left:10%;margin-top:10%;width:13em}.plan>ul>li{border-bottom:1px solid #dfdfdf;margin:0 0 6px -5px;padding:0 0 6px 5px}
 .plan>ul>li>span{float:right!important}.plan>input{margin-bottom:7%;margin-left:28%;margin-top:7%}.price{color:#eb8a1d;font-size:1.8em;margin-top:8%;text-align:center}
 #footer{background:url('../images/aside-tail.gif') repeat-x left top #131313;margin-left:-16%;margin-top:3%;padding-bottom:1%;padding-right:10%;width:91em}
@@ -16,5 +16,6 @@
 #slogan>article>header{color:inherit;font-size:22px;font-weight:bold;line-height:40px;margin:10px 0;text-transform:uppercase}#slogan>article>p{color:#FFF;text-align:justify}
 #slogan>article>header>span{color:#fff}.plans>header>span,.plan>header>span{color:#FFF}#overview p{text-align:justify}#listaplanes>table>thead>tr>th{background-color:#eb8a1d;color:#FFF;text-transform:uppercase}
 .rowtitle{background-color:#eb8a1d;color:#fff;text-align:center!important;text-transform:uppercase}table .centrado{text-align:center!important}table .margen{padding-left:2%!important}
-.selector:hover,div.current{background-color:transparent;background-image:url('../images/selections.png');color:#fff;padding-right:20%}li.current a{color:#eb8a1d!important}
-#contacts{margin-top:5%}
+.selector:hover,div.current{background-color:transparent;background-image:url('../images/selections.png');background-size:101% 100%;box-shadow:none;padding-right:28%}
+.selector:hover>a,div.current>a{color:#FFF;text-decoration:none}li.current a{color:#eb8a1d!important}#contacts{margin-top:5%}#fondo{background-image:url('../images/slider-bg.jpg');background-position:-13em;background-repeat:no-repeat;background-size:125% 100%;border-radius:5px;height:23.7em}
+.info>img{padding-left:63%;padding-top:8.7%;width:17.7em}.info>button{margin-top:4%}.selector>a{color:#333}.selector>a:hover{color:#FFF!important}

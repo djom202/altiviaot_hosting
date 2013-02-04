@@ -70,9 +70,9 @@ a, a:hover, a:visited{
     margin-top: 2%;
 }
 .selector{
-    /*box-shadow: 5px 5px 5px #888888;*/
     background-color: #fff;
     border-radius: 5px;
+    box-shadow: inset 1px 0 34px rgba(0,0,0,0.5);
     font-size: 1.5em;
     margin-bottom: 2.5%;
     margin-left: -4%;
@@ -93,6 +93,7 @@ a, a:hover, a:visited{
 .plan{
     background-color: #fff;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
 }
 .plan>header,.plans>header{
     background-color: #f89c0b;
@@ -221,12 +222,39 @@ table .margen{
 .selector:hover,div.current{
     background-color: transparent;
     background-image: url('../images/selections.png');
-    color: #fff;
-    padding-right: 20%;
+    background-size: 101% 100%;
+    box-shadow: none;
+    padding-right: 28%;
+}
+.selector:hover>a,div.current>a{
+    color: #FFF;
+    text-decoration: none;
 }
 li.current a{
     color:#EB8A1D !important;
 }
 #contacts{
     margin-top: 5%;
+}
+#fondo{
+    background-image: url('../images/slider-bg.jpg');
+    background-position: -13em;
+    background-repeat: no-repeat;
+    background-size: 125% 100%;
+    border-radius: 5px;
+    height: 23.7em;
+}
+.info>img{
+    padding-left: 63%;
+    padding-top: 8.7%;
+    width: 17.7em;
+}
+.info>button{
+    margin-top: 4%;
+}
+.selector>a{
+    color:#333;
+}
+.selector>a:hover{
+    color:#FFF !important;
 }
