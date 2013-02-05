@@ -66,7 +66,7 @@ a, a:hover, a:visited{
     padding-bottom: 1%;
     width: 15%;
 }
-#slide,#slogan, #infoplanes, #planes, #overview, #listaplanes{
+#slide, #slogan, #infoplanes, #planes, #overview, #listaplanes, #dominios, #request, #registrodomain{
     margin-top: 2%;
 }
 .selector{
@@ -95,7 +95,10 @@ a, a:hover, a:visited{
     border-radius: 5px;
     box-shadow: 5px 5px 5px #888888;
 }
-.plan>header,.plans>header{
+.plan:hover{
+    box-shadow: 5px 5px 5px rgb(196, 183, 43);
+}
+.plan>header,.plans header{
     background-color: #f89c0b;
     border-radius: 5px 5px 0px 0px;
     font-size: 1.3em;
@@ -103,9 +106,17 @@ a, a:hover, a:visited{
     text-align: center;
     text-transform: uppercase;
 }
-.plans>header{
+.plans header{
     border-radius: 5px 5px 5px 5px;
     box-shadow: 5px 5px 5px #888888;
+    background: -webkit-linear-gradient(orange, rgb(255, 255, 255), orange);
+}
+.plans header span{
+    color: #000;
+}
+.plans a, .plans a:visited, .plans a:hover{
+    color: #333;
+    text-decoration: none !important;
 }
 .plan>ul{
     list-style: none;
@@ -121,7 +132,7 @@ a, a:hover, a:visited{
 .plan>ul>li>span{
     float: right !important;
 }
-.plan>input{
+.plan>a{
     margin-bottom: 7%;
     margin-left: 28%;
     margin-top: 7%;
@@ -157,6 +168,9 @@ footer a, a:hover, a:visited{
 }
 #menu a:hover{
     color: #f89c0b !important;
+}
+#plansinfo h2{
+    text-transform: uppercase;
 }
 #menu a, #menu a:visited{
     color: #fff;
@@ -257,4 +271,21 @@ li.current a{
 }
 .selector>a:hover{
     color:#FFF !important;
+}
+#facebook img{
+    width: 52%;
+}
+#twitter img{
+    width: 100%;
+}
+#plansinfo{
+    margin-top: 3%;
+    text-align: justify;
+}
+#plansinfo>ul{
+    list-style-type:circle;
+    margin-left: 6%;
+}
+#request p{
+    text-align: center;
 }

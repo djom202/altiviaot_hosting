@@ -1,24 +1,9 @@
 <?php
 	include('../clases/seguridad.php');
 	if (file_exists("../modulos/header.php")){ include('../modulos/header.php'); }
+	if (file_exists("../modulos/slogan.php")){ include('../modulos/slogan.php'); }
+	if (file_exists("../modulos/planes2.php")){ include('../modulos/planes2.php'); }
 ?>
-<div id="slogan" class="row-fluid">
-		<article>
-			<header>your domain name <span>helps the world to find you</span></header>
-			<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
-		</article>
-</div>
-<div id="infoplanes" class="row-fluid">
-<?php
-	$sql='SELECT `nombre`,`precio` FROM `planes` WHERE `estado` = 1';
-	include('../clases/sql.php');
-	if (mysql_affected_rows() > 0) {
-		while($row=mysql_fetch_array($result)){
-			echo '<div class="plans span3"><header><span>Plan '.$row['nombre'].'</span><br>'.$row['precio'].' Col</header></div>';
-		}
-	}
-?>
-</div>
 <div id="contacts" class="row-fluid">
 	<div class="offset2 span3">
 		<h3>Postal Address</h3>
