@@ -1,9 +1,8 @@
 <?php
 	include('../clases/seguridad.php');
 	if (file_exists("../modulos/header.php")){ include('../modulos/header.php'); }
-	if (file_exists("../modulos/slogan.php")){ include('../modulos/slogan.php'); }
-	if (file_exists("../modulos/planes2.php")){ include('../modulos/planes2.php'); }
 ?>
+<div id="face_contact" class="row-fluid"></div>
 <div id="contacts" class="row-fluid">
 	<div class="offset2 span3">
 		<h3>Postal Address</h3>

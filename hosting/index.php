@@ -2,210 +2,33 @@
 	include('../clases/seguridad.php');
 	if (file_exists("../modulos/header.php")){ include('../modulos/header.php'); }
 	if (file_exists("../modulos/slogan.php")){ include('../modulos/slogan.php'); }
+	if (file_exists("../modulos/planes2.php")){ include('../modulos/planes2.php'); }
 ?>
-<div id="listaplanes" class="row-fluid">
-	<h3>Planes de Hosting</h3>
-	<table class="table table-condensed">
-		<thead>
-			<tr>
-				<th class="margen">Plan de hosting</th>
-				<th class="centrado">Personal</th>
-				<th class="centrado">Standard</th>
-				<th class="centrado">Avanced</th>
-				<th class="centrado">Other</th>
-			</tr>
-		</thead>
-	  <tbody>
-		<tr>
-		  <td class="margen">Mark</td>
-		  <td class="centrado">Otto</td>
-		  <td class="centrado">@mdo</td>
-		  <td class="centrado">@mdo</td>
-		  <td class="centrado">@mdo</td>
-		</tr>
-		<tr>
-		  <td class="margen">Jacob</td>
-		  <td class="centrado">Thornton</td>
-		  <td class="centrado">Thornton</td>
-		  <td class="centrado">Thornton</td>
-		  <td class="centrado">@fat</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado"><input type="button" value="Buy Now" class="btn btn-inverse"></td>
-		  <td class="centrado"><input type="button" value="Buy Now" class="btn btn-inverse"></td>
-		  <td class="centrado"><input type="button" value="Buy Now" class="btn btn-inverse"></td>
-		  <td class="centrado"><input type="button" value="Buy Now" class="btn btn-inverse"></td>
-		</tr>
-		<tr>
-			<td class="rowtitle" colspan="5">You can Create</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-			<td class="rowtitle" colspan="5">all accounts will have</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-		<tr>
-		  <td class="margen">Larry the Bird</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		  <td class="centrado">@twitter</td>
-		</tr>
-	  </tbody>
-	</table>
+<div id="hosting" class="row-fluid">
+	<h2>Hosting</h2>
+	<div class="row-fluid">
+		El hosting es un servicio que le permitirá publicar su página web en Internet, tener sus correos electrónicos con el nombre de su empresa, entre otras muchas más aplicaciones. Un hosting debe ir en conjunto con un dominio para que su página web y sus correos queden con el nombre de su empresa, por ejemplo: www.suempresa.com y gerencia@suempresa.com.
+		En otras palabras un plan de hosting es un espacio que se encuentra en servidores conectados 24 horas al día a Internet, permitiendole que los usuarios puedan visitar su página en cualquier momento. Todos nuestros planes de hosting se encuentran en servidores de alto rendimiento, con redundancia en almacenamiento y con copias de seguridad diarias en otro centro de datos. Nosotros ofrecemos hosting en linux, hosting en windows y hosting dedicado.<br><br>
+	</div>
+	<div class="row-fluid">
+		<div class="span1">
+			<img src="../themes/images/cpanel.png" alt="" style="width: 76px;">
+		</div>
+		<p class="span11">
+			cPanel y Fantastico
+			Administre usted mismo su cuenta de hosting (cree cuentas de correo, suba su página) e instale docenas de aplicaciones de código abierto como (Joomla, Wordpress, Carros de Compras, etc) con un par de clics.
+		</p>
+	</div>
+	<div class="row-fluid">
+		<div class="span1">
+			<img src="../themes/images/user.png" alt="" style="width: 76px;">
+		</div>
+		<p class="span11">
+			Usted es el dueño de su dominio
+			Los dominios que usted registre con nosotros quedarán registrados a su nombre y su información podrá ser consultada haciendo un whois al dominio. Mediante nuestro panel de administración usted podrá apuntar su dominio a otro proveedor en el momento en que lo desee.
+		</p>
+	</div>
+	<a href="./../hosting_plans/" class="btn btn-inverse">Mas detalles de nuestros Hostig</a>
 </div>
 <div class="row-fluid"></div>
 <?php if (file_exists("../modulos/footer.php")){ include('../modulos/footer.php'); } ?>

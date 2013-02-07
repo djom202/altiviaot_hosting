@@ -3,8 +3,7 @@
 *{cursor:pointer!important}body{color:#FFF;overflow-x:hidden;background-color:#e7e7e7!important}a,a:hover,a:visited{color:#f89c0b;text-decoration:none}
 #menu{background-image:url('../images/aside-tail.gif');border-radius:5px}#nav{color:#FFF;float:right;font-size:1.3em;list-style:none;margin-top:1.7%;text-transform:uppercase;width:31em;height:2.7em}
 #nav li{background:url('../images/divider.gif') repeat-y left top;float:left;padding:2%;text-decoration:none!important}#login{margin-top:2%;text-align:right}
-#logo img{float:left;margin-left:5%;margin-top:1.4%;padding-bottom:1%;width:15%}#slide,#slogan,#infoplanes,#planes,#overview,#listaplanes,#dominios,#request,#registrodomain{margin-top:2%}
-.selector{background-color:#fff;border-radius:5px;box-shadow:inset 1px 0 34px rgba(0,0,0,0.5);font-size:1.5em;margin-bottom:2.5%;margin-left:-4%;padding-bottom:8%;padding-top:8%;text-align:center;text-transform:uppercase}
+#logo img{float:left;margin-left:5%;margin-top:1.4%;padding-bottom:1%;width:15%}.selector{background-color:#fff;border-radius:5px;box-shadow:inset 1px 0 34px rgba(0,0,0,0.5);font-size:1.5em;margin-bottom:2.5%;margin-left:-4%;padding-bottom:8%;padding-top:8%;text-align:center;text-transform:uppercase}
 .selector span{background-image:url('../images/arrows.gif');background-position:95% -5%;background-repeat:no-repeat;color:#f89c0b;font-size:.5em!important;padding-right:8%;text-transform:none}
 .plan{background-color:#fff;border-radius:5px;box-shadow:5px 5px 5px #888}.plan:hover{box-shadow:5px 5px 5px #c4b72b}.plan>header,.plans header{background-color:#f89c0b;border-radius:5px 5px 0 0;font-size:1.3em;padding:8% 0;text-align:center;text-transform:uppercase}
 .plans header{border-radius:5px 5px 5px 5px;box-shadow:5px 5px 5px #888;background:-webkit-linear-gradient(orange,#fff,orange)}.plans header span{color:#000}
@@ -15,9 +14,11 @@
 #menu a:hover{color:#f89c0b!important}#plansinfo h2{text-transform:uppercase}#menu a,#menu a:visited{color:#fff;text-decoration:none}footer strong span{color:#f89c0b}
 .plan input[type=button]:hover{color:#08c}.noticias{border-right:1px solid #444242}#slogan{background-image:url('../images/slogan-bg.jpg');background-size:100% 100%;height:16em}
 #slogan>article{margin-right:3%;padding-left:35%;padding-top:4%}#slogan>article>header{color:inherit;font-size:22px;font-weight:bold;line-height:40px;margin:10px 0;text-transform:uppercase}
-#slogan>article>p{color:#FFF;text-align:justify}#slogan>article>header>span{color:#fff}.plans>header>span,.plan>header>span{color:#FFF}#overview p{text-align:justify}
-#listaplanes>table>thead>tr>th{background-color:#eb8a1d;color:#FFF;text-transform:uppercase}.rowtitle{background-color:#eb8a1d;color:#fff;text-align:center!important;text-transform:uppercase}
-table .centrado{text-align:center!important}table .margen{padding-left:2%!important}.selector:hover,div.current{background-color:transparent;background-image:url('../images/selections.png');background-size:101% 100%;box-shadow:none;padding-right:28%}
+#slogan>article>p{color:#FFF;text-align:justify}#slogan>article>header>span{color:#fff}.plans>header>span,.plan>header>span{color:#FFF}#listaplanes>table>thead>tr>th{background-color:#eb8a1d;color:#FFF;text-transform:uppercase}
+.rowtitle{background-color:#eb8a1d;color:#fff;text-align:center!important;text-transform:uppercase}table .centrado{text-align:center!important}table .margen{padding-left:2%!important}
+.selector:hover,div.current{background-color:transparent;background-image:url('../images/selections.png');background-size:101% 100%;box-shadow:none;padding-right:28%}
 .selector:hover>a,div.current>a{color:#FFF;text-decoration:none}li.current a{color:#eb8a1d!important}#contacts{margin-top:5%}#fondo{background-image:url('../images/slider-bg.jpg');background-position:-13em;background-repeat:no-repeat;background-size:125% 100%;border-radius:5px;height:23.7em}
 .info>img{padding-left:63%;padding-top:8.7%;width:17.7em}.info>button{margin-top:4%}.selector>a{color:#333}.selector>a:hover{color:#FFF!important}#facebook img{width:52%}
-#twitter img{width:100%}#plansinfo{margin-top:3%;text-align:justify}#plansinfo>ul{list-style-type:circle;margin-left:6%}#request p{text-align:center}
+#twitter img{width:100%}#plansinfo{margin-top:3%;text-align:justify}#plansinfo>ul{list-style-type:circle;margin-left:6%}#request p{text-align:center}#registrodomain div p{text-align:justify}
+#faq strong,#reseller strong{text-transform:uppercase;font-size:1.2em}#faq p{margin-bottom:3%}#slogan2{background-image:url('../images/slider.jpg');height:23em;background-size:100% 100%;background-repeat:no-repeat}
+#domianinfo p,#supportinfo p,#faq p,#domains p,#reseller p{text-align:justify}#slide,#slogan,#slogan2,#infoplanes,#planes,#domains,#listaplanes,#dominios,#request,#registrodomain,#supportinfo,#faq,#reseller{margin-top:2%}

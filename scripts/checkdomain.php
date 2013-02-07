@@ -7,8 +7,8 @@
 			$estado='<span class="label label-important">No disponible</span>';
 		}else{
 			$query='<p class="text-success"><strong>¡Felicidades! '.$pagina.' ¡está disponible!</strong></p><br>';
-			$estado='<span class="label label-success">Disponible</span>';
+			$estado='<span class="label label-success">¡Disponible! Comprar Ahora</span>';
 		}
-		header('location: ../home/?query='.$query.'&pagina='.$pagina.'&estado='.$estado);
+		header('location: ../home/?query='.$query.'&pagina='.$pagina.'&estado='.$estado.'&dominio='.$_REQUEST['dominio']);
 	}
 ?>

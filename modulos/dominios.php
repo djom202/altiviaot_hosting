@@ -19,9 +19,9 @@
 						echo '<tr>';
 						echo '<td>'.$row['nombre'].'</td>';
 						echo '<td>1</td>';
-						echo '<td>'.$row['precio'].'</td>';
-						echo '<td>'.$row['transferir'].'</td>';
-						echo '<td>'.$row['renovar'].'</td>';
+						echo '<td>$'.$row['precio'].'</td>';
+						echo '<td>$'.$row['transferir'].'</td>';
+						echo '<td>$'.$row['renovar'].'</td>';
 						echo '</tr>';
 					}
 				}

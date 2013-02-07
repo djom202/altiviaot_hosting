@@ -6,7 +6,7 @@
 ?>
 <div id="plansinfo" class="row-fluid">
 <?php
-	$sql='SELECT `nombre`,`discoduro`,`transferencia`,`basedatos`,`emails`,`ftp`,`precio` FROM `planes` WHERE `estado` = 1 AND `id` = 2';
+	$sql='SELECT `nombre`,`discoduro`,`transferencia`,`basedatos`,`emails`,`ftp`,`precio` FROM `planes` WHERE `estado` = 1 AND `id` = 4';
 	include('../clases/sql.php');
 	if (mysql_affected_rows() > 0) {
 		if($row=mysql_fetch_array($result)){
@@ -15,7 +15,7 @@
 			echo '<ul><li>'.$row['discoduro'].' Disk space</li>';
 			echo '<li>'.$row['transferencia'].' Monthly transfer</li>';
 			echo '<li>1 domain to host</li>';
-			echo '<li>Sub dominios Ilimitados</li>';
+			echo '<li>1 Sub dominios</li>';
 			echo '<li>'.$row['emails'].' Email boxes</li>';
 			echo '<li>'.$row['basedatos'].' Database MySQL</li>';
 			echo '<li>CronJobs</li></ul>';

@@ -15,7 +15,7 @@
 		<div class="selector row-fluid"><a href="#">Email Hosting</a><br>
 			<span>Get more information</span>
 		</div>
-		<div class="selector row-fluid"><a href="#">Dedicated</a><br>
+		<div class="selector row-fluid"><a href="#">Reseller</a><br>
 			<span>Get more information</span>
 		</div>
 	</div>
