@@ -6,7 +6,7 @@
 ?>
 <div id="plansinfo" class="row-fluid">
 <?php
-	$sql='SELECT `nombre`,`discoduro`,`transferencia`,`basedatos`,`emails`,`ftp`,`precio` FROM `planes` WHERE `estado` = 1 AND `id` = 3';
+	$sql='SELECT `nombre`,`discoduro`,`transferencia`,`basedatos`,`emails`,`ftp`,`precio` FROM `planes_hosting` WHERE `estado` = 1 AND `id` = 4';
 	include('../clases/sql.php');
 	if (mysql_affected_rows() > 0) {
 		if($row=mysql_fetch_array($result)){

@@ -1,4 +1,4 @@
-<div id="dominios" class="row-fluid">
+<div id="domains" class="row-fluid">
 	<h3>Precios de Dominios</h3>
 	<table class="offset1 table table-condensed table-striped" style="width: 89%;">
 	    <thead>

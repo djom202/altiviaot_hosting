@@ -5,10 +5,12 @@
 #nav li{background:url('../images/divider.gif') repeat-y left top;float:left;padding:2%;text-decoration:none!important}#login{margin-top:2%;text-align:right}
 #logo img{float:left;margin-left:5%;margin-top:1.4%;padding-bottom:1%;width:15%}.selector{background-color:#fff;border-radius:5px;box-shadow:inset 1px 0 34px rgba(0,0,0,0.5);font-size:1.5em;margin-bottom:2.5%;margin-left:-4%;padding-bottom:8%;padding-top:8%;text-align:center;text-transform:uppercase}
 .selector span{background-image:url('../images/arrows.gif');background-position:95% -5%;background-repeat:no-repeat;color:#f89c0b;font-size:.5em!important;padding-right:8%;text-transform:none}
-.plan{background-color:#fff;border-radius:5px;box-shadow:5px 5px 5px #888}.plan:hover{box-shadow:5px 5px 5px #c4b72b}.plan>header,.plans header{background-color:#f89c0b;border-radius:5px 5px 0 0;font-size:1.3em;padding:8% 0;text-align:center;text-transform:uppercase}
-.plans header{border-radius:5px 5px 5px 5px;box-shadow:5px 5px 5px #888;background:-webkit-linear-gradient(orange,#fff,orange)}.plans header span{color:#000}
-.plans a,.plans a:visited,.plans a:hover{color:#333;text-decoration:none!important}.plan>ul{list-style:none;margin-left:10%;margin-top:10%;width:13em}
-.plan>ul>li{border-bottom:1px solid #dfdfdf;margin:0 0 6px -5px;padding:0 0 6px 5px}.plan>ul>li>span{float:right!important}.plan>a{margin-bottom:7%;margin-left:28%;margin-top:7%}
+.plan_hosting,.plan_reseller{background-color:#fff;border-radius:5px;box-shadow:5px 5px 5px #888}.plan_hosting:hover,.plan_reseller:hover{box-shadow:5px 5px 5px #c4b72b}
+.plan_hosting>header,.plan_reseller>header,.plans header{background-color:#f89c0b;border-radius:5px 5px 0 0;font-size:1.3em;padding:8% 0;text-align:center;text-transform:uppercase}
+.plan_hosting>header>span,.plan_reseller>header>span{color:#fff}.plans header{border-radius:5px 5px 5px 5px;box-shadow:5px 5px 5px #888;background:-webkit-linear-gradient(orange,#fff,orange)}
+.plans header span{color:#000}.plans a,.plans a:visited,.plans a:hover{color:#333;text-decoration:none!important}.plan_hosting>ul{list-style:none;margin-left:10%;margin-top:10%;width:13em}
+.plan_hosting>ul>li,.plan_reseller>ul>li{border-bottom:1px solid #dfdfdf;margin:0 0 6px -5px;padding:0 0 6px 5px}.plan_hosting>ul>li>span,.plan_reseller>ul>li>span{float:right!important}
+.plan_hosting>a,.plan_reseller a{margin-bottom:7%;margin-left:28%;margin-top:7%}.plan_reseller>ul{list-style:none;margin-left:9%;margin-top:10%;width:18em}
 .price{color:#eb8a1d;font-size:1.8em;margin-top:8%;text-align:center}#footer{background:url('../images/aside-tail.gif') repeat-x left top #131313;margin-left:-16%;margin-top:3%;padding-bottom:1%;padding-right:10%;width:91em}
 #footer ul{color:#fff;list-style:none;margin-top:10%}footer{color:#fff;margin-bottom:0;margin-top:2%;text-align:center}footer a,a:hover,a:visited{color:#f89c0b;text-decoration:none}
 #menu a:hover{color:#f89c0b!important}#plansinfo h2{text-transform:uppercase}#menu a,#menu a:visited{color:#fff;text-decoration:none}footer strong span{color:#f89c0b}
@@ -20,5 +22,5 @@
 .selector:hover>a,div.current>a{color:#FFF;text-decoration:none}li.current a{color:#eb8a1d!important}#contacts{margin-top:5%}#fondo{background-image:url('../images/slider-bg.jpg');background-position:-13em;background-repeat:no-repeat;background-size:125% 100%;border-radius:5px;height:23.7em}
 .info>img{padding-left:63%;padding-top:8.7%;width:17.7em}.info>button{margin-top:4%}.selector>a{color:#333}.selector>a:hover{color:#FFF!important}#facebook img{width:52%}
 #twitter img{width:100%}#plansinfo{margin-top:3%;text-align:justify}#plansinfo>ul{list-style-type:circle;margin-left:6%}#request p{text-align:center}#registrodomain div p{text-align:justify}
-#faq strong,#reseller strong{text-transform:uppercase;font-size:1.2em}#faq p{margin-bottom:3%}#slogan2{background-image:url('../images/slider.jpg');height:23em;background-size:100% 100%;background-repeat:no-repeat}
-#domianinfo p,#supportinfo p,#faq p,#domains p,#reseller p{text-align:justify}#slide,#slogan,#slogan2,#infoplanes,#planes,#domains,#listaplanes,#dominios,#request,#registrodomain,#supportinfo,#faq,#reseller{margin-top:2%}
+#faq strong,#reseller strong{text-transform:uppercase;font-size:1.2em}#faq p{margin-bottom:3%}#hosting a{color:#FFF}#slogan2{background-image:url('../images/slider.jpg');height:23em;background-size:100% 100%;background-repeat:no-repeat}
+#domianinfo p,#supportinfo p,#faq p,#domains p,#reseller p,#hosting p{text-align:justify}#hosting,#slide,#slogan,#slogan2,#infoplanes,#planes,#domains,#listaplanes,#request,#registrodomain,#supportinfo,#faq,#reseller{margin-top:2%}

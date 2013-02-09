@@ -87,21 +87,24 @@ a, a:hover, a:visited{
     padding-right: 8%;
     text-transform: none;
 }
-.plan{
+.plan_hosting,.plan_reseller{
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #888888;
 }
-.plan:hover{
+.plan_hosting:hover,.plan_reseller:hover{
     box-shadow: 5px 5px 5px rgb(196, 183, 43);
 }
-.plan>header,.plans header{
+.plan_hosting>header,.plan_reseller>header,.plans header{
     background-color: #f89c0b;
     border-radius: 5px 5px 0px 0px;
     font-size: 1.3em;
     padding: 8% 0%;
     text-align: center;
     text-transform: uppercase;
+}
+.plan_hosting>header>span,.plan_reseller>header>span{
+    color: #fff;
 }
 .plans header{
     border-radius: 5px 5px 5px 5px;
@@ -115,24 +118,30 @@ a, a:hover, a:visited{
     color: #333;
     text-decoration: none !important;
 }
-.plan>ul{
+.plan_hosting>ul{
     list-style: none;
     margin-left: 10%;
     margin-top: 10%;
     width: 13em;
 }
-.plan>ul>li{
+.plan_hosting>ul>li,.plan_reseller>ul>li{
     border-bottom: 1px solid #dfdfdf;
     margin: 0 0 6px -5px;
     padding: 0 0 6px 5px;
 }
-.plan>ul>li>span{
+.plan_hosting>ul>li>span,.plan_reseller>ul>li>span{
     float: right !important;
 }
-.plan>a{
+.plan_hosting>a,.plan_reseller a{
     margin-bottom: 7%;
     margin-left: 28%;
     margin-top: 7%;
+}
+.plan_reseller>ul{
+    list-style: none;
+    margin-left: 9%;
+    margin-top: 10%;
+    width: 18em;
 }
 .price{
     color: #EB8A1D;
@@ -293,15 +302,18 @@ li.current a{
 #faq p{
     margin-bottom: 3%;
 }
+#hosting a{
+    color: #FFF;
+}
 #slogan2{
     background-image: url('../images/slider.jpg');
     height: 23em;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-#domianinfo p, #supportinfo p, #faq p, #domains p, #reseller p{
+#domianinfo p, #supportinfo p, #faq p, #domains p, #reseller p, #hosting p{
     text-align: justify;
 }
-#slide, #slogan, #slogan2, #infoplanes, #planes, #domains, #listaplanes, #dominios, #request, #registrodomain, #supportinfo, #faq, #reseller{
+#hosting, #slide, #slogan, #slogan2, #infoplanes, #planes, #domains, #listaplanes, #request, #registrodomain, #supportinfo, #faq, #reseller{
     margin-top: 2%;
 }

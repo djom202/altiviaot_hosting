@@ -6,7 +6,7 @@
 ?>
 <div id="plansinfo" class="row-fluid">
 <?php
-	$sql='SELECT `nombre`,`discoduro`,`transferencia`,`basedatos`,`emails`,`ftp`,`precio` FROM `planes` WHERE `estado` = 1 AND `id` = 2';
+	$sql='SELECT `nombre`,`discoduro`,`transferencia`,`basedatos`,`emails`,`ftp`,`precio` FROM `planes_hosting` WHERE `estado` = 1 AND `id` = 1';
 	include('../clases/sql.php');
 	if (mysql_affected_rows() > 0) {
 		if($row=mysql_fetch_array($result)){
@@ -24,7 +24,6 @@
 	}
 ?>
 </div>
-
 <?php 
 	echo '<div class="row-fluid"></div>';
 	if (file_exists("../modulos/footer.php")){ include('../modulos/footer.php'); }

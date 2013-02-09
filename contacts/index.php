@@ -2,7 +2,7 @@
 	include('../clases/seguridad.php');
 	if (file_exists("../modulos/header.php")){ include('../modulos/header.php'); }
 ?>
-<div id="face_contact" class="row-fluid"></div>
+<div id="face_contact" class="row-fluid">Para nosotros es un gusto poder atenderle, por favor si tiene alguna inquietud o sugerencia no dude en contactarnos</div>
 <div id="contacts" class="row-fluid">
 	<div class="offset2 span3">
 		<h3>Postal Address</h3>
